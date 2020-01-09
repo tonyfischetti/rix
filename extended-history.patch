@@ -1,0 +1,56 @@
+diff -Naur R-devel-stock/src/unix/sys-std.c R-devel/src/unix/sys-std.c
+--- R-devel-stock/src/unix/sys-std.c	2019-09-27 12:02:10.000000000 -0400
++++ R-devel/src/unix/sys-std.c	2020-01-09 12:00:35.263698403 -0500
+@@ -30,6 +30,11 @@
+ 
+ /* select() is essential here, but configure has required it */
+ 
++#include <stdio.h>
++#include <stdlib.h>
++#include <time.h>
++
++
+ #ifdef HAVE_CONFIG_H
+ # include <config.h>
+ #endif
+@@ -653,6 +658,28 @@
+   }
+ }
+ 
++void write_to_extended_history(char *line){
++    FILE *fptr;
++    long size;
++    char* buf;
++    char* cwdptr;
++    const char* ZCONTEXT    = getenv("ZCONTEXT");
++    size = pathconf(".", _PC_PATH_MAX);
++    buf = (char *)malloc((size_t)size);
++    cwdptr = getcwd(buf, (size_t)size);
++    fptr = fopen(EXTENDED_HISTORY_FILE, "a");
++    fprintf(fptr, ":R:%s:%s:%s:%s: %lu:0;%s\n",
++            MZUNAME,
++            MZHOSTNAME,
++            cwdptr,
++            ZCONTEXT,
++            (unsigned long)time(NULL),
++            line);
++    fclose(fptr);
++    free(buf);
++}
++
++
+ static void readline_handler(char *line)
+ {
+     R_size_t buflen = rl_top->readline_len;
+@@ -663,8 +690,10 @@
+ 	return;
+     if (line[0]) {
+ # ifdef HAVE_READLINE_HISTORY_H
+-	if (strlen(line) && rl_top->readline_addtohistory)
++        if (strlen(line) && rl_top->readline_addtohistory){
++	    write_to_extended_history(line);
+ 	    add_history(line);
++	}
+ # endif
+ 	/* We need to append a \n if the completed line would fit in the
+ 	   buffer but not otherwise.  Byte [buflen] is zeroed in

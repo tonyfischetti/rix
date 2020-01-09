@@ -1,3 +1,19 @@
+
+Apply patch!
+
+
+
+BUT MAKE SURE YOU CHANGE THE HOSTNAME, ETC...
+export CFLAGS="-fopenmp -O2 -march=native -mtune=native -pipe -pthread -DMZUNAME=\\\"Linux\\\" -DMZHOSTNAME=\\\"betazed\\\" -DEXTENDED_HISTORY_FILE=\\\"/home/tony/Dropbox/histories/r_extended_history-betazed\\\"";
+./configure --prefix=/usr/local --enable-R-profiling --enable-memory-profiling --enable-java --enable-byte-compiled-packages --with-readline --without-recommended-packages --with-x --with-pcre2 --with-blas --with-lapack --with-gnu-ld
+
+add "-pthread" and "-fopenmp" to LIBS
+LIBS =  -lpcre -llzma -lbz2 -lz -lrt -ldl -lm -licuuc -licui18n -pthread -fopenmp
+
+
+
+
+OLD!!!!
 R compiled (on Mac) with the following options..
 
 export PATH="/usr/local/clang6/bin/:$PATH"; export
