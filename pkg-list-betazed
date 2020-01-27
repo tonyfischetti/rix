@@ -2,6 +2,7 @@ askpass
 assertr
 assertthat
 backports
+base64enc
 BH
 brew
 callr
@@ -40,6 +41,7 @@ glmnet
 glue
 gridExtra
 gtable
+highr
 htmltools
 htmlwidgets
 httpuv
@@ -48,6 +50,7 @@ ini
 inline
 iterators
 jsonlite
+knitr
 labeling
 later
 lattice
@@ -56,6 +59,7 @@ lifecycle
 loo
 lubridate
 magrittr
+markdown
 MASS
 Matrix
 matrixStats
@@ -87,6 +91,7 @@ remotes
 reshape2
 rex
 rlang
+rmarkdown
 roxygen2
 rpart
 rprojroot
@@ -108,12 +113,14 @@ testthat
 tibble
 tidyr
 tidyselect
+tinytex
 usethis
 utf8
 vctrs
 viridisLite
 whisker
 withr
+xfun
 xml2
 xopen
 xtable
