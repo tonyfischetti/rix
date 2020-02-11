@@ -21,6 +21,7 @@ data.table
 digest
 dplyr
 fansi
+farver
 ggplot2
 glue
 gtable
@@ -50,5 +51,6 @@ tibble
 tidyr
 tidyselect
 utf8
+vctrs
 viridisLite
 withr
