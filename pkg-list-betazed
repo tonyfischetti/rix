@@ -4,6 +4,7 @@ assertthat
 backports
 base64enc
 BH
+boot
 brew
 callr
 checkmate
@@ -42,6 +43,7 @@ glue
 gridExtra
 gtable
 highr
+hms
 htmltools
 htmlwidgets
 httpuv
@@ -87,6 +89,7 @@ rcmdcheck
 RColorBrewer
 Rcpp
 RcppEigen
+readr
 remotes
 reshape2
 rex
