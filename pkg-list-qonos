@@ -44,6 +44,7 @@ later
 lattice
 lazyeval
 lifecycle
+lubridate
 magrittr
 markdown
 MASS
