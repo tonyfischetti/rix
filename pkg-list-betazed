@@ -36,6 +36,7 @@ fastmap
 foreach
 foreign
 fs
+generics
 ggplot2
 gh
 git2r
@@ -92,6 +93,7 @@ RColorBrewer
 Rcpp
 RcppEigen
 readr
+rematch2
 remotes
 reshape2
 rex
