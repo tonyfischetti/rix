@@ -26,6 +26,7 @@ evaluate
 fansi
 farver
 fs
+generics
 ggplot2
 gh
 git2r
@@ -70,6 +71,7 @@ R6
 rcmdcheck
 RColorBrewer
 Rcpp
+rematch2
 remotes
 rex
 rlang
