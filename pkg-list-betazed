@@ -121,6 +121,7 @@ RColorBrewer
 Rcpp
 RcppArmadillo
 RcppEigen
+RcppParallel
 readr
 readxl
 rematch
