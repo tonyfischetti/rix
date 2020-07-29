@@ -23,6 +23,7 @@ codetools
 colorout
 colorspace
 commonmark
+conquer
 corrplot
 covr
 cowplot
@@ -97,6 +98,7 @@ nloptr
 nnet
 openssl
 openxlsx
+pbapply
 pbkrtest
 pillar
 pkgbuild
@@ -164,6 +166,7 @@ TTR
 urca
 usethis
 utf8
+V8
 vctrs
 viridisLite
 whisker
