@@ -6,6 +6,7 @@ backports
 base64enc
 BBmisc
 BH
+bitops
 boot
 brew
 broom
@@ -27,6 +28,7 @@ conquer
 corrplot
 covr
 cowplot
+cpp11
 crayon
 crosstalk
 curl
@@ -98,6 +100,7 @@ nloptr
 nnet
 openssl
 openxlsx
+packrat
 pbapply
 pbkrtest
 pillar
@@ -124,6 +127,7 @@ Rcpp
 RcppArmadillo
 RcppEigen
 RcppParallel
+RCurl
 readr
 readxl
 rematch
@@ -137,6 +141,7 @@ rmarkdown
 roxygen2
 rpart
 rprojroot
+rsconnect
 rstan
 rstatix
 rstudioapi
@@ -145,6 +150,7 @@ scales
 sessioninfo
 shape
 shiny
+shinydashboard
 sourcetools
 sp
 SparseM
