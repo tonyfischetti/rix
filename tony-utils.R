@@ -71,6 +71,10 @@ setcleannames <- function(dat){
   setnames(dat, cleannames(dat))
 }
 
+percent.not.na <- function(aframe, avar){
+  aframe[, round(100*sum(!is.na(get(avar)))/.N, 2)]
+}
+
 
 attach(.env)
 
