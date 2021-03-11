@@ -6,10 +6,12 @@ assertthat
 backports
 base64enc
 BBmisc
+beeswarm
 BH
 bit
 bit64
 bitops
+blob
 boot
 brew
 brio
@@ -45,6 +47,7 @@ curl
 data.table
 data.validator
 DBI
+dbplyr
 desc
 devtools
 diffobj
@@ -65,7 +68,10 @@ Formula
 fracdiff
 fs
 generics
+geofacet
+geogrid
 gert
+ggbeeswarm
 ggmap
 ggplot2
 ggpubr
@@ -88,6 +94,7 @@ htmltools
 htmlwidgets
 httpuv
 httr
+imguR
 ini
 inline
 isoband
@@ -118,6 +125,7 @@ memoise
 mgcv
 mime
 minqa
+modelr
 munsell
 nlme
 nloptr
@@ -133,6 +141,7 @@ pkgbuild
 pkgconfig
 pkgload
 plogr
+plotly
 plyr
 png
 polynom
@@ -160,9 +169,11 @@ readxl
 rematch
 rematch2
 remotes
+reprex
 reshape2
 rex
 rgdal
+rgeos
 RgoogleMaps
 rio
 rJava
@@ -170,6 +181,7 @@ rjson
 RJSONIO
 rlang
 rmarkdown
+rnaturalearth
 roxygen2
 rpart
 rprojroot
@@ -203,6 +215,7 @@ tibble
 tidycensus
 tidyr
 tidyselect
+tidyverse
 tigris
 timeDate
 tinytex
@@ -215,6 +228,7 @@ utf8
 uuid
 V8
 vctrs
+vipor
 viridis
 viridisLite
 waldo
