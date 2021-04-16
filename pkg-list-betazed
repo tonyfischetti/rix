@@ -54,6 +54,7 @@ diffobj
 digest
 dplyr
 DT
+dtplyr
 e1071
 ellipsis
 evaluate
@@ -67,6 +68,7 @@ foreign
 Formula
 fracdiff
 fs
+gargle
 generics
 geofacet
 geogrid
@@ -83,6 +85,8 @@ git2r
 gitcreds
 glmnet
 glue
+googledrive
+googlesheets4
 gridExtra
 gtable
 haven
@@ -94,6 +98,7 @@ htmltools
 htmlwidgets
 httpuv
 httr
+ids
 imguR
 ini
 inline
@@ -109,6 +114,7 @@ later
 lattice
 latticeExtra
 lazyeval
+libbib
 lifecycle
 lme4
 lmtest
@@ -150,6 +156,7 @@ prettyunits
 processx
 progress
 promises
+proxy
 ps
 purrr
 quadprog
@@ -181,7 +188,9 @@ rjson
 RJSONIO
 rlang
 rmarkdown
+R.methodsS3
 rnaturalearth
+R.oo
 roxygen2
 rpart
 rprojroot
@@ -189,6 +198,7 @@ rsconnect
 rstan
 rstatix
 rstudioapi
+R.utils
 rversions
 rvest
 sass
