@@ -25,7 +25,8 @@ auto.loads <-c("magrittr",
                 # "tidyr",
                 "ggplot2",
                 "stringr",
-                "data.table")
+                "data.table",
+                "libbib")
 
 # auto-load quietly
 if(interactive()){
@@ -36,6 +37,6 @@ if(interactive()){
 source("~/.Rprofile")
 source("~/.rix/tony-utils.R")
 
-message("\n*** loaded magrittr, ggplot2, stringr, and data.table ***\n")
+message("\n*** loaded magrittr, ggplot2, stringr, data.table, and libbib ***\n")
 
 message("\n*** Successfully loaded expanded .RRprofile ***\n")
