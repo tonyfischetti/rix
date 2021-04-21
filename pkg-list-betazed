@@ -133,6 +133,7 @@ mime
 minqa
 modelr
 munsell
+nanotime
 nlme
 nloptr
 nnet
@@ -168,6 +169,8 @@ rcmdcheck
 RColorBrewer
 Rcpp
 RcppArmadillo
+RcppCCTZ
+RcppDate
 RcppEigen
 RcppParallel
 RCurl
