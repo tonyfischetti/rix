@@ -17,21 +17,22 @@ local({r <- getOption("repos")
 ## OPTIONS ##
 #############
 
-options(stringsAsFactors=FALSE)    # stringsAsFactors=HELLNO
+options(stringsAsFactors=FALSE)     # stringsAsFactors=HELLNO
 options(max.print=100)
-options(scipen=10)                 # no scientific notation
-options(editor="vim")              # the best there is
-options(warn=2)                    # warnings as errors
-options(useFancyQuotes=FALSE)    # just no
-options(menu.graphics=FALSE)       # no time for Tk to load
+options(scipen=10)                  # no scientific notation
+options(editor="vim")               # the best there is
+options(warn=2)                     # warnings as errors
+options(useFancyQuotes=FALSE)       # just no
+options(menu.graphics=FALSE)        # no time for Tk to load
 options(max.print=300)
 options(width = 80)
 # options(prompt="> ")
-# options(continue="... ")           # helps me realize when I forget to close (
+# options(continue="... ")          # helps me realize when I forget to close (
 options(datatable.print.class=TRUE)
 options(datatable.print.keys=TRUE)
 options(datatable.prettyprint.char=50)
 options(datatable.fwrite.sep='\t')
+options(datatable.na.strings="")
 
 source("~/.rix/secret-options.R")
 
