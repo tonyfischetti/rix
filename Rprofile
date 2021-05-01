@@ -64,5 +64,13 @@ q <- function (save="no", ...) {
   }
 }
 
+.env <- new.env()
+
+.env$copy_last_value <- function(){
+  out <- capture.output(print(.Last.value))
+  clipr::write_clip(out, object_type="character")
+}
+
+attach(.env)
 
 message("\n*** Successfully loaded .Rprofile ***\n")
