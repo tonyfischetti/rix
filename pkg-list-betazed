@@ -55,8 +55,10 @@ digest
 dplyr
 DT
 dtplyr
+dtt
 e1071
 ellipsis
+english
 evaluate
 fansi
 farver
@@ -114,6 +116,7 @@ later
 lattice
 latticeExtra
 lazyeval
+lexicon
 libbib
 lifecycle
 lme4
@@ -129,6 +132,7 @@ MatrixModels
 matrixStats
 memoise
 mgcv
+mgsub
 mime
 minqa
 modelr
@@ -136,6 +140,7 @@ munsell
 nanotime
 nlme
 nloptr
+NLP
 nnet
 numDeriv
 openssl
@@ -160,6 +165,7 @@ promises
 proxy
 ps
 purrr
+qdapRegex
 quadprog
 quantmod
 quantreg
@@ -213,17 +219,23 @@ shape
 shiny
 shinydashboard
 shiny.semantic
+slam
 sourcetools
 sp
 SparseM
 spatial
+splitstackshape
 StanHeaders
 statmod
+STRAD
 stringi
 stringr
 survival
 sys
+syuzhet
 testthat
+textclean
+textshape
 tibble
 tidycensus
 tidyr
