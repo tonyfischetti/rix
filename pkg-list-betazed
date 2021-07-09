@@ -211,6 +211,7 @@ rstudioapi
 R.utils
 rversions
 rvest
+s2
 sass
 scales
 selectr
@@ -261,6 +262,7 @@ waldo
 WDI
 whisker
 withr
+wk
 xfun
 XML
 xml2
