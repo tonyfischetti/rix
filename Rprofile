@@ -74,3 +74,4 @@ q <- function (save="no", ...) {
 attach(.env)
 
 message("\n*** Successfully loaded .Rprofile ***\n")
+
