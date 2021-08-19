@@ -90,6 +90,7 @@ nlme
 nnet
 openssl
 packrat
+parsedate
 pbapply
 pillar
 pkgbuild
@@ -116,12 +117,14 @@ rematch
 rematch2
 remotes
 reprex
+rhub
 rlang
 rmarkdown
 roxygen2
 rprojroot
 rsconnect
 rstudioapi
+rsyslog
 rversions
 rvest
 sass
@@ -156,6 +159,7 @@ viridisLite
 vroom
 waldo
 whisker
+whoami
 withr
 xfun
 xml2
