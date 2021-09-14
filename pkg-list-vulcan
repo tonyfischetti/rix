@@ -5,6 +5,7 @@ backports
 base64enc
 bit
 bit64
+bitops
 blob
 brew
 brio
@@ -16,6 +17,7 @@ cellranger
 cli
 clipr
 codetools
+coinmarketcapr
 colorout
 colorspace
 commonmark
@@ -107,10 +109,12 @@ quadprog
 quantmod
 R6
 rappdirs
+Rbitcoin
 rcmdcheck
 RColorBrewer
 Rcpp
 RcppArmadillo
+RCurl
 readr
 readxl
 rematch
