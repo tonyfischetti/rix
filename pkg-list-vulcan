@@ -36,6 +36,7 @@ digest
 dplyr
 DT
 dtplyr
+dygraphs
 ellipsis
 evaluate
 fansi
@@ -98,6 +99,7 @@ pillar
 pkgbuild
 pkgconfig
 pkgload
+plyr
 praise
 prettyunits
 processx
