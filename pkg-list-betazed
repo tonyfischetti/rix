@@ -21,6 +21,7 @@ cachem
 callr
 car
 carData
+caret
 cellranger
 checkmate
 choroplethrMaps
@@ -67,6 +68,8 @@ foreign
 Formula
 fracdiff
 fs
+future
+future.apply
 gargle
 generics
 gert
@@ -76,9 +79,11 @@ gh
 git2r
 gitcreds
 glmnet
+globals
 glue
 googledrive
 googlesheets4
+gower
 gridExtra
 gtable
 haven
@@ -94,6 +99,7 @@ httr
 ids
 ini
 inline
+ipred
 isoband
 iterators
 jpeg
@@ -105,10 +111,12 @@ labeling
 later
 lattice
 latticeExtra
+lava
 lazyeval
 lexicon
 libbib
 lifecycle
+listenv
 lme4
 lmtest
 loo
@@ -124,6 +132,7 @@ memoise
 mgcv
 mime
 minqa
+ModelMetrics
 modelr
 munsell
 nanotime
@@ -135,6 +144,7 @@ numDeriv
 openssl
 openxlsx
 packrat
+parallelly
 pbapply
 pbkrtest
 pillar
@@ -145,8 +155,11 @@ plyr
 png
 praise
 prettyunits
+pROC
 processx
+prodlim
 progress
+progressr
 promises
 proxy
 ps
@@ -167,6 +180,7 @@ RcppParallel
 RCurl
 readr
 readxl
+recipes
 rematch
 rematch2
 remotes
@@ -202,6 +216,7 @@ slam
 sourcetools
 sp
 SparseM
+SQUAREM
 StanHeaders
 statmod
 stringi
