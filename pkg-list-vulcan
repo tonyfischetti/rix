@@ -79,6 +79,7 @@ future.apply
 gargle
 generics
 gert
+getopt
 ggmosaic
 ggplot2
 ggrepel
@@ -124,6 +125,7 @@ listenv
 lme4
 lmtest
 lobstr
+lpSolve
 lubridate
 magrittr
 maptools
@@ -147,6 +149,7 @@ nortest
 numDeriv
 openssl
 openxlsx
+optparse
 packrat
 padr
 parallelly
