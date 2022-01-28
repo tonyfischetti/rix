@@ -191,6 +191,7 @@ Rcpp
 RcppArmadillo
 RcppEigen
 RcppParallel
+RcppRoll
 RCurl
 readr
 readxl
@@ -246,6 +247,7 @@ timeDate
 timetk
 tinytex
 tseries
+tsfeatures
 tsibble
 TTR
 tzdb
