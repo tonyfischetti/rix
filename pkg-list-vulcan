@@ -119,6 +119,8 @@ later
 lattice
 lava
 lazyeval
+leaflet
+leaflet.providers
 libbib
 lifecycle
 listenv
@@ -164,6 +166,7 @@ pkgload
 plogr
 plotly
 plyr
+png
 praise
 prettyunits
 pROC
@@ -184,6 +187,7 @@ quantreg
 R6
 ranger
 rappdirs
+raster
 Rbitcoin
 rcmdcheck
 RColorBrewer
@@ -206,8 +210,10 @@ riingo
 rio
 rlang
 rmarkdown
+R.methodsS3
 rngtools
 robustbase
+R.oo
 roxygen2
 rpart
 rprojroot
@@ -216,6 +222,7 @@ rsconnect
 RSQLite
 rstudioapi
 rsyslog
+R.utils
 rversions
 rvest
 sass
@@ -237,6 +244,7 @@ stringi
 stringr
 survival
 sys
+terra
 testthat
 tibble
 tidyquant
@@ -258,6 +266,7 @@ uuid
 vcd
 vctrs
 VIM
+viridis
 viridisLite
 vroom
 waldo
