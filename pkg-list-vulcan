@@ -24,6 +24,7 @@ callr
 car
 carData
 caret
+caTools
 cellranger
 checkmate
 chron
@@ -91,9 +92,11 @@ glue
 googledrive
 googlesheets4
 gower
+gplots
 gridExtra
 gsubfn
 gtable
+gtools
 haven
 highr
 hms
