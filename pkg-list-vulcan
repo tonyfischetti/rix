@@ -31,7 +31,9 @@ chron
 class
 cli
 clipr
+cluster
 codetools
+coin
 coinmarketcapr
 colorout
 colorspace
@@ -125,6 +127,7 @@ lazyeval
 leaflet
 leaflet.providers
 libbib
+libcoin
 lifecycle
 listenv
 lme4
@@ -146,7 +149,10 @@ mime
 minqa
 ModelMetrics
 modelr
+modeltools
+multcomp
 munsell
+mvtnorm
 nlme
 nloptr
 nnet
@@ -159,9 +165,11 @@ packrat
 padr
 parallelly
 parsedate
+party
 pbapply
 pbkrtest
 PerformanceAnalytics
+permute
 pillar
 pkgbuild
 pkgconfig
@@ -188,6 +196,7 @@ Quandl
 quantmod
 quantreg
 R6
+randomForest
 ranger
 rappdirs
 raster
@@ -208,6 +217,7 @@ rematch2
 remotes
 reprex
 reshape2
+rfUtilities
 rhub
 riingo
 rio
@@ -228,6 +238,7 @@ rsyslog
 R.utils
 rversions
 rvest
+sandwich
 sass
 scales
 selectr
@@ -245,10 +256,12 @@ sqldf
 SQUAREM
 stringi
 stringr
+strucchange
 survival
 sys
 terra
 testthat
+TH.data
 tibble
 tidyquant
 tidyr
@@ -268,6 +281,7 @@ utf8
 uuid
 vcd
 vctrs
+vegan
 VIM
 viridis
 viridisLite
