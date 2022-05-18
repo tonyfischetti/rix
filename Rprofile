@@ -34,7 +34,8 @@ options(datatable.prettyprint.char=50)
 options(datatable.fwrite.sep='\t')
 options(datatable.na.strings="")
 
-source("~/.rix/secret-options.R")
+if(file.exists("~/.rix/secret-options.R"))
+    source("~/.rix/secret-options.R")
 
 utils::rc.settings(ipck=TRUE)      # tab complete package names
 
