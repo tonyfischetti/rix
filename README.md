@@ -13,8 +13,8 @@ used packages and things.
 R profile. You can create a shell alias to run that shell
 script
 
-    git clone https://github.com/tonyfischetti/rix.git ~/.rix/
-    ln -s ~/.rix/Rprofile ~/.Rprofile
-    ln -s ~/.rix/inputrc ~/.inputrc
-    ln -s ~/.rix/Renviron ~/.Renviron
-    mkdir -p ~/local/R_libs
+```
+git clone https://github.com/tonyfischetti/rix.git ~/.rix/
+cd ~/.rix/
+./install.sh
+```
