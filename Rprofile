@@ -21,7 +21,7 @@ options(stringsAsFactors=FALSE)     # stringsAsFactors=HELLNO
 options(max.print=100)
 options(scipen=10)                  # no scientific notation
 options(editor="vim")               # the best there is
-options(warn=2)                     # warnings as errors
+# options(warn=2)                     # warnings as errors
 options(useFancyQuotes=FALSE)       # just no
 options(menu.graphics=FALSE)        # no time for Tk to load
 options(max.print=300)
