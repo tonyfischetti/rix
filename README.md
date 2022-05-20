@@ -13,6 +13,10 @@ used packages and things.
 R profile. You can create a shell alias to run that shell
 script
 
+To install some of the packages in that install as part of the
+`install.sh` script, you need libcurl4-openssl-dev and libxml2-dev,
+or the equivalent package on your OS
+
 ```
 git clone https://github.com/tonyfischetti/rix.git ~/.rix/
 cd ~/.rix/
