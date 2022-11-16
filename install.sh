@@ -6,4 +6,4 @@ ln -s ~/.rix/Renviron ~/.Renviron
 mkdir -p ~/local/R_libs
 
 R -e 'install.packages(c("devtools", "assertr", "libbib", "data.table", "ggplot2"))'
-R -e 'devtools::install_github("jalvesaq/colorout")'
+R CMD install goodies/colorout_1.2-1.tar.gz
