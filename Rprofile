@@ -33,6 +33,7 @@ options(datatable.print.keys=TRUE)
 options(datatable.prettyprint.char=50)
 options(datatable.fwrite.sep='\t')
 options(datatable.na.strings="")
+options(languageserver.diagnostics = FALSE)
 
 if(file.exists("~/.rix/secret-options.R"))
   source("~/.rix/secret-options.R")
