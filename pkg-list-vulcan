@@ -251,6 +251,7 @@ rgdal
 rhub
 riingo
 rio
+rjson
 rlang
 rmarkdown
 R.methodsS3
@@ -290,6 +291,7 @@ sp
 SparseM
 sqldf
 SQUAREM
+SSLASSO
 stringi
 stringr
 strucchange
