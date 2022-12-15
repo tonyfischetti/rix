@@ -1,4 +1,5 @@
 abind
+ada
 alphavantager
 anytime
 askpass
@@ -75,6 +76,7 @@ e1071
 ellipsis
 epitools
 evaluate
+evd
 Exact
 expm
 extrafont
@@ -84,6 +86,7 @@ fansi
 farver
 fastmap
 feasts
+ff
 fontawesome
 forcats
 foreach
@@ -240,6 +243,7 @@ RCurl
 readr
 readxl
 recipes
+RecordLinkage
 rematch
 rematch2
 remotes
@@ -262,6 +266,7 @@ R.oo
 rootSolve
 roxygen2
 rpart
+RPostgreSQL
 rprojroot
 rsample
 rsconnect
