@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -euxo pipefail
+
 ln -s ~/.rix/Rprofile ~/.Rprofile
 ln -s ~/.rix/inputrc ~/.inputrc
 ln -s ~/.rix/Renviron ~/.Renviron
