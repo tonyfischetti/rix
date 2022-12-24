@@ -173,6 +173,7 @@ mice
 mime
 miniUI
 minqa
+mnormt
 ModelMetrics
 modelr
 modeltools
@@ -219,6 +220,7 @@ promises
 proto
 proxy
 ps
+psych
 purrr
 quadprog
 Quandl
@@ -243,6 +245,7 @@ RCurl
 readr
 readxl
 recipes
+reclin2
 RecordLinkage
 rematch
 rematch2
@@ -297,6 +300,7 @@ SparseM
 sqldf
 SQUAREM
 SSLASSO
+stringdist
 stringi
 stringr
 strucchange
