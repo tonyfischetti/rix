@@ -1,6 +1,17 @@
---- stock__-R-4.0.3/src/unix/sys-std.c	2020-06-07 18:15:01.000000000 -0400
-+++ patched-R-4.0.3/src/unix/sys-std.c	2021-02-01 14:53:56.521712571 -0500
-@@ -30,6 +30,11 @@
+From dd6fc5e1fb4cccc2e934a52163188f56d4b350df Mon Sep 17 00:00:00 2001
+From: Tony Fischetti <tony.fischetti@gmail.com>
+Date: Thu, 29 Dec 2022 16:57:37 -0500
+Subject: [PATCH] tony's patch to maintain a more extensive r history file
+
+---
+ src/unix/sys-std.c | 29 ++++++++++++++++++++++++++++-
+ 1 file changed, 28 insertions(+), 1 deletion(-)
+
+diff --git a/src/unix/sys-std.c b/src/unix/sys-std.c
+index 7b93d63884a80..89deecebdd067 100644
+--- a/src/unix/sys-std.c
++++ b/src/unix/sys-std.c
+@@ -30,6 +30,10 @@
  
  /* select() is essential here, but configure has required it */
  
@@ -8,11 +19,10 @@
 +#include <stdlib.h>
 +#include <time.h>
 +
-+
  #ifdef HAVE_CONFIG_H
  # include <config.h>
  #endif
-@@ -655,6 +660,28 @@
+@@ -656,6 +660,27 @@ static void popReadline(void)
    }
  }
  
@@ -37,19 +47,21 @@
 +    free(buf);
 +}
 +
-+
  static void readline_handler(char *line)
  {
      R_size_t buflen = rl_top->readline_len;
-@@ -665,8 +692,10 @@
+@@ -675,8 +700,10 @@ static void readline_handler(char *line)
  	return;
      if (line[0]) {
  # ifdef HAVE_READLINE_HISTORY_H
 -	if (strlen(line) && rl_top->readline_addtohistory)
-+        if (strlen(line) && rl_top->readline_addtohistory){
++	if (strlen(line) && rl_top->readline_addtohistory){
 +	    write_to_extended_history(line);
  	    add_history(line);
-+	}
++    }
  # endif
  	/* We need to append a \n if the completed line would fit in the
  	   buffer but not otherwise.  Byte [buflen] is zeroed in
+-- 
+2.30.2
+
