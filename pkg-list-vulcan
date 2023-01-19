@@ -2,6 +2,7 @@ abind
 ada
 alphavantager
 anytime
+arsenal
 askpass
 assertr
 assertthat
@@ -35,6 +36,7 @@ cli
 clipr
 clock
 cluster
+coda
 codemeta
 codemetar
 codetools
@@ -44,6 +46,7 @@ collections
 colorout
 colorspace
 commonmark
+compareDF
 conquer
 corrgram
 cpp11
@@ -123,6 +126,7 @@ haven
 here
 highr
 hms
+htmlTable
 htmltools
 htmlwidgets
 httpcode
@@ -258,6 +262,7 @@ rgdal
 rhub
 riingo
 rio
+rjags
 rjson
 rlang
 rmarkdown
