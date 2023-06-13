@@ -1,5 +1,6 @@
 abind
 ada
+addressr
 alphavantager
 anytime
 arsenal
@@ -47,6 +48,7 @@ colorout
 colorspace
 commonmark
 compareDF
+conflicted
 conquer
 corrgram
 cpp11
@@ -64,6 +66,7 @@ DEoptimR
 desc
 DescTools
 devtools
+diagram
 diffobj
 digest
 distributional
@@ -104,6 +107,7 @@ gargle
 generics
 gert
 getopt
+ggmap
 ggmosaic
 ggplot2
 ggrepel
@@ -132,12 +136,14 @@ htmlwidgets
 httpcode
 httpuv
 httr
+httr2
 ids
 ini
 ipred
 isoband
 iterators
 janitor
+jpeg
 jquerylib
 jsonlite
 KernSmooth
@@ -181,6 +187,7 @@ mnormt
 ModelMetrics
 modelr
 modeltools
+muaddresses
 multcomp
 munsell
 mvtnorm
@@ -211,6 +218,7 @@ plogr
 plotly
 plyr
 png
+postmastr
 praise
 prettyunits
 pROC
@@ -259,10 +267,12 @@ reshape2
 rex
 rfUtilities
 rgdal
+RgoogleMaps
 rhub
 riingo
 rio
 rjags
+rJava
 rjson
 rlang
 rmarkdown
@@ -282,6 +292,7 @@ RSQLite
 rstudioapi
 rsyslog
 Rttf2pt1
+rusps
 R.utils
 rversions
 rvest
@@ -318,14 +329,17 @@ testthat
 textshaping
 TH.data
 tibble
+tidycensus
 tidyquant
 tidyr
 tidyselect
 tidyverse
+tigris
 timechange
 timeDate
 timetk
 tinytex
+toOrdinal
 triebeard
 tseries
 tsfeatures
@@ -355,6 +369,8 @@ withr
 wk
 xfun
 xgboost
+xlsx
+xlsxjars
 XML
 xml2
 xmlparsedata
