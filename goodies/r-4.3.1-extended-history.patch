@@ -1,0 +1,66 @@
+From 63408397f418be3d4961547c5fde94a7d3c09224 Mon Sep 17 00:00:00 2001
+From: Tony Fischetti <tony.fischetti@gmail.com>
+Date: Fri, 15 Sep 2023 14:40:37 +0000
+Subject: [PATCH] Tony's patch to maintain a more detailed R history file
+
+---
+ src/unix/sys-std.c | 29 ++++++++++++++++++++++++++++-
+ 1 file changed, 28 insertions(+), 1 deletion(-)
+
+diff --git a/src/unix/sys-std.c b/src/unix/sys-std.c
+index d4ae67e..aefd515 100644
+--- a/src/unix/sys-std.c
++++ b/src/unix/sys-std.c
+@@ -30,6 +30,10 @@
+
+ /* select() is essential here, but configure has required it */
+
++#include <stdio.h>
++#include <stdlib.h>
++#include <time.h>
++
+ #ifdef HAVE_CONFIG_H
+ # include <config.h>
+ #endif
+@@ -656,6 +660,27 @@ static void popReadline(void)
+   }
+ }
+
++void write_to_extended_history(char *line) {
++    FILE *fptr;
++    long size;
++    char* buf;
++    char* cwdptr;
++    const char* ZCONTEXT    = getenv("ZCONTEXT");
++    size = pathconf(".", _PC_PATH_MAX);
++    buf = (char *)malloc((size_t)size);                                                                                                                                                  •
++    cwdptr = getcwd(buf, (size_t)size);
++    fptr = fopen(EXTENDED_HISTORY_FILE, "a");
++    fprintf(fptr, ":R:%s:%s:%s:%s: %lu:0;%s\n",
++            MZUNAME,
++            MZHOSTNAME,
++            cwdptr,
++            ZCONTEXT,
++            (unsigned long)time(NULL),
++            line);
++    fclose(fptr);
++    free(buf);
++}
++
+ static void readline_handler(char *line)
+ {
+     R_size_t buflen = rl_top->readline_len;
+@@ -675,8 +700,10 @@ static void readline_handler(char *line)
+        return;
+     if (line[0]) {
+ # ifdef HAVE_READLINE_HISTORY_H
+-       if (strlen(line) && rl_top->readline_addtohistory)
++       if (strlen(line) && rl_top->readline_addtohistory) {
++           write_to_extended_history(line);
+            add_history(line);
++       }
+ # endif
+        /* We need to append a \n if the completed line would fit in the
+           buffer but not otherwise.  Byte [buflen] is zeroed in
+--
+2.39.2
