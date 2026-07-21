@@ -13,12 +13,16 @@ used packages and things.
 R profile. You can create a shell alias to run that shell
 script
 
-To install some of the packages in that install as part of the
-`install.sh` script, you need libcurl4-openssl-dev and libxml2-dev,
-or the equivalent package on your OS
-
 ```
 git clone https://github.com/tonyfischetti/rix.git ~/.rix/
-cd ~/.rix/
-./install.sh
+make -C ~/.rix deps      # OS packages (sudo; macOS: checks for CRAN R)
+make -C ~/.rix setup     # symlinks, ~/local/R_libs, packages
+make -C ~/.rix doctor    # verify everything
 ```
+
+The Makefile is the single source of truth (it replaced `install.sh`).
+Everything is idempotent — `make setup` installs only what's missing,
+so re-running it any time is safe and fast.  `make doctor` checks the
+whole install (including that `~/.Renviron` actually takes effect —
+R silently ignores malformed lines) and exits nonzero if anything is
+broken.

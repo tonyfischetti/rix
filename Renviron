@@ -1,1 +1,4 @@
-export R_LIBS=~/local/R_libs/
+# ~/.Renviron is parsed by R itself (name=value only) — a leading
+# "export" makes R silently ignore the line, which left R_LIBS unset
+# for years
+R_LIBS=~/local/R_libs/
