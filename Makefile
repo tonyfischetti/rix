@@ -42,7 +42,7 @@ else
 	sudo apt-get install -qq -y -o Acquire::Retries=3 \
 	  r-base build-essential libcurl4-openssl-dev libssl-dev libxml2-dev \
 	  libfontconfig1-dev libharfbuzz-dev libfribidi-dev libfreetype6-dev \
-	  libpng-dev libtiff5-dev libjpeg-dev
+	  libpng-dev libtiff5-dev libjpeg-dev libuv1-dev
 endif
 
 # ---- full install ---------------------------------------------------- #
